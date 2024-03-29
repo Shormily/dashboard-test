@@ -12,8 +12,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
-    max-width: 1500px;
-    margin: auto;
+    /* max-width: 1500px; */
+    /* margin: auto; */
 }
 .tablesorce{
     display: grid;
@@ -28,6 +28,44 @@ body{
   .margins{
     margin-left: 60%;
   }
+
+
+  /* Responsive layout cards */
+  @media (max-width: 1440px) {
+    .cartsflex{
+     flex-direction: row;
+     grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media (max-width: 800px) {
+    .cartsflex{
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 700px) {
+    .cartsflex{
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 600px) {
+    .cartsflex{
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 550px) {
+    .cartsflex{
+      
+      flex-direction: row;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media (max-width: 400px) {
+    .cartsflex{
+        flex-direction: row;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  /* Responsive layout cards */
    /* Responsive layout - makes a one column layout instead of a two-column layout */
    
    @media (max-width: 1440px) {

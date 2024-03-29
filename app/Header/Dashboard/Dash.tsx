@@ -11,7 +11,7 @@ import TableOne from "../Tables/TableOne";
 const ECommerce: React.FC = () => {
   return (
     <>
-      <div className="max-w-[1500px]  mb-8 m-auto justify-center">
+      <div className="max-w-[1400px]  mb-8 m-auto justify-center ">
         <div className="cartsflex">
           <CardDataStats
             title="Total views"
@@ -124,17 +124,17 @@ const ECommerce: React.FC = () => {
             {" "}
             <ChartOne />
           </div>
-          <div className="w-full max-w-[30%]">
+          <div className="w-full max-w-[30%] ">
             {" "}
             <ChartTwo />
           </div>
         </div>
 
-        <div className="mt-4 flex-container  gap-5">
-          <div className="w-full lg:w-[20%]">
+        <div className="mt-4 flex-container  gap-5 overflow-y-auto">
+          <div className=" lg:w-[30%]">
             <ChartThree />
           </div>
-          <div className="w-full lg:w-[80%]">
+          <div className="w-full max-w-[70%]">
             <MapOne />
           </div>
         </div>
@@ -146,6 +146,7 @@ const ECommerce: React.FC = () => {
             <ChatCard />
           </div>
         </div>
+        
        
       </div>
       
