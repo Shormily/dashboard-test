@@ -4,9 +4,9 @@ import ChartOne from "../Charts/ChartOne";
 import ChartThree from "../Charts/ChartThree";
 import ChartTwo from "../Charts/ChartTwo";
 import ChatCard from "../Chat/ChatCard";
-import MapOne from "../Maps/MapOne";
 import CardDataStats from "../CardDataStats";
 import TableOne from "../Tables/TableOne";
+import MapOne from "../Maps/MapOne";
 
 const ECommerce: React.FC = () => {
   return (
@@ -130,12 +130,12 @@ const ECommerce: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-4 flex-container  gap-5 overflow-y-auto">
+        <div className="mt-4 flex-container  gap-5 ">
           <div className=" lg:w-[30%]">
             <ChartThree />
           </div>
           <div className="w-full max-w-[70%]">
-            <MapOne />
+            <MapOne/>
           </div>
         </div>
         <div className="mt-4 flex-container  h-12  gap-5 ">
