@@ -113,7 +113,8 @@ const Header = (props: {
             {/* <!-- Notification Menu Area --> */}
 
             {/* <!-- Chat Notification Area --> */}
-            <DropdownMessage />
+            {/* <DropdownMessage /> */}
+             <span className="text-sky-600">D3D Admin</span>
             {/* <!-- Chat Notification Area --> */}
           </ul>
 

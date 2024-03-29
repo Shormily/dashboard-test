@@ -8,16 +8,19 @@ import CardDataStats from "../CardDataStats";
 import TableOne from "../Tables/TableOne";
 import MapOne from "../Maps/MapOne";
 
+
 const ECommerce: React.FC = () => {
   return (
     <>
-      <div className="max-w-[1400px]  mb-8 m-auto justify-center ">
+      <div className="max-w-[1350px]  mb-8 m-auto justify-center ">
         <div className="cartsflex">
+         
           <CardDataStats
             title="Total views"
             total="$3.456K"
             rate="0.43%"
             levelUp
+           
           >
             <svg
               className="fill-primary  dark:fill-white"
@@ -37,6 +40,8 @@ const ECommerce: React.FC = () => {
               />
             </svg>
           </CardDataStats>
+          
+         
           <CardDataStats
             title="Total Profit"
             total="$45,2K"
@@ -139,10 +144,10 @@ const ECommerce: React.FC = () => {
           </div>
         </div>
         <div className="mt-4 flex-container  h-12  gap-5 ">
-          <div className="w-full lg:w-[80%] ">
+          <div className="w-full lg:w-[70%] ">
             <TableOne />
           </div>
-          <div className="w-full max-w-[20%]">
+          <div className="w-full max-w-[30%]">
             <ChatCard />
           </div>
         </div>

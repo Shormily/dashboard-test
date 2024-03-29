@@ -5,8 +5,11 @@
 @tailwind utilities;
 
 body{
-  background-color: #E2E8F0;
+  background-color: #05101e;
 }  
+.shadows{
+    box-shadow: 2px 3px 12px rgba(117, 115, 115, 0.668);
+}
 
 .cartsflex{
     display: grid;

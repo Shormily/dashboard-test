@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "component/Header/Header.jsx", "app/Header/Maps/MapOne.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "component/Header/Header.jsx", "app/Header/Maps/MapOne.jsx", "app/Header/Charts/ChartOne.tsx"],
   "exclude": ["node_modules"]
 }
