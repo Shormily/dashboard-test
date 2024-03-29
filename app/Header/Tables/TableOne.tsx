@@ -40,14 +40,14 @@ const brandData: BRAND[] = [
 
 const TableOne = () => {
   return (
-    <div className="rounded-sm overflow-visible   border border-stroke bg-white px-5 pb-2.5 pt-6 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
+    <div className="rounded-sm overflow-visible   border border-stroke bg-white px-5 pb-5 pt-6 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
       <h4 className="mb-6 text-xl font-semibold text-black dark:text-white">
         Top Channels
       </h4>
 
       <div className="flex flex-col">
         <div className="tablesorce  rounded-sm bg-gray-2 dark:bg-meta-4 ">
-          <div className="">
+          <div className="p-2.5 text-center xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
               Source
             </h5>

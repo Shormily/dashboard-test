@@ -93,7 +93,7 @@ const ChartTwo: React.FC = () => {
 
   return (
     <div className="w-full rounded-sm border border-stroke bg-white p-7.5 shadow-default dark:border-strokedark dark:bg-boxdark ">
-      <div className="mb-4 justify-between gap-4 sm:flex">
+      <div className="mb-4 justify-between gap-4 flex py-3">
         <div>
           <h4 className="text-xl font-semibold text-black dark:text-white">
             Profit this week

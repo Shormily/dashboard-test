@@ -143,7 +143,7 @@ const ECommerce: React.FC = () => {
             <MapOne/>
           </div>
         </div>
-        <div className="mt-4 flex-container  h-12  gap-5 ">
+        <div className="mt-4 flex-container gap-5 ">
           <div className="w-full lg:w-[70%] ">
             <TableOne />
           </div>

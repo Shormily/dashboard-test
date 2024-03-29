@@ -40,7 +40,7 @@ const chatData: Chat[] = [
 
 const ChatCard = () => {
   return (
-    <div className="overflow-x-auto  rounded-sm border border-stroke bg-white px-5 py-6 shadow-default dark:border-strokedark dark:bg-boxdark ">
+    <div className=" h-96  rounded-sm border border-stroke bg-white px-5 py-4 shadow-default dark:border-strokedark dark:bg-boxdark ">
       <h4 className="mb-6 px-7.5 text-xl font-semibold text-black dark:text-white">
         Chats
       </h4>
